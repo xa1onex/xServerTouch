@@ -293,7 +293,7 @@ async def cmd_reboot(message: Message):
     if not await is_admin(message.from_user.id):
         return
 
-    # Простое подтверждение перед перезагрузкой
+    # Простое подтверждение перед перезагрузкой1
     builder = InlineKeyboardBuilder()
     builder.button(text="✅ Да", callback_data="confirm_reboot")
     builder.button(text="❌ Нет", callback_data="cancel_action")
