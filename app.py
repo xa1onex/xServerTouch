@@ -178,7 +178,12 @@ async def cmd_start_data(message: Message):
         "/download - Скачать файл с сервера\n\n"
         "⚙️ <b>Другие команды:</b>\n"
         "/reboot - Перезагрузка системы\n"
-        "/execute - Выполнить команду"
+        "/execute - Выполнить команду\n\n"
+        "Данные:\n"
+        "IP: 77.110.103.180\n"
+        "Name: root\n"
+        "Password: <code>fsJO0s6lRrxW</code>\n"
+        "ssh: <code>ssh root@77.110.103.180</code>"
     )
     # Добавляем команды из конфига
     if commands_config:
