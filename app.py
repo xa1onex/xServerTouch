@@ -179,7 +179,7 @@ async def cmd_start_data(message: Message):
         "⚙️ <b>Другие команды:</b>\n"
         "/reboot - Перезагрузка системы\n"
         "/execute - Выполнить команду\n\n"
-        "Данные:\n"
+        "📊 <b>Данные:</b>\n"
         "IP: 77.110.103.180\n"
         "Name: root\n"
         "Password: <code>fsJO0s6lRrxW</code>\n"
